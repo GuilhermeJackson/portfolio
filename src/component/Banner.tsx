@@ -14,13 +14,6 @@ const Banner = () => {
               {titlePart1}
               <br /> <span className="text-primary-200">{titlePart2}</span>
             </h1>
-            <p
-              className="max-w-[415px] text-body-md: lg:text-body-lg mb-8 text-green-400"
-              data-aos="fade-down"
-              data-aos-delay="700"
-            >
-              {subtitle}
-            </p>
             <button
               className="btn btn-secondary"
               data-aos="fade-down"

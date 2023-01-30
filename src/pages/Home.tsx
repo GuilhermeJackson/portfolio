@@ -1,6 +1,7 @@
 import Banner from "../component/Banner";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import About from "../component/About";
 
 function App() {
   Aos.init({
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="max-w-[1440px] mx-auto bg-page overflow-hidden relative ">
       <Banner />
+      <About />
     </div>
   );
 }
