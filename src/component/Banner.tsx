@@ -8,24 +8,24 @@ const Banner = () => {
           <div className="text-white flex-1 z-10 pl-6 lg:pl-0">
             <h1
               className="h1 text-white mb-8"
-              data-aos="fade-down"
-              data-aos-delay="500"
+              data-aos="fade-right"
+              data-aos-delay="100"
             >
               {titlePart1}
               <br /> <span className="text-primary-200">{titlePart2}</span>
             </h1>
             <button
               className="btn btn-secondary"
-              data-aos="fade-down"
-              data-aos-delay="800"
+              data-aos="fade-up"
+              data-aos-delay="1000"
             >
               <a href="https://github.com/GuilhermeJackson" target="_blank">{textBtn}</a>
             </button>
           </div>
           <div
             className="bg-blue-300 w-full h-[90%] bg-banner bg-cover bg-right lg:bg-center bg-no-repeat flex-1"
-            data-aos="fade-right"
-            data-aos-delay="900"
+            data-aos="fade-left"
+            data-aos-delay="500"
           >
           </div>
         </div>

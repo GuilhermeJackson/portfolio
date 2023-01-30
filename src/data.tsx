@@ -1,4 +1,8 @@
-import UsersIcn from '../src/assets/img/about/about-successful-man.svg';
+import AboutInc from '../src/assets/svg/about/about-successful-man.svg';
+import Technology from '../src/assets/svg/tecnology/tecnology.svg';
+import { SiLess, SiTailwindcss, SiCypress, SiTypescript, SiApacheecharts } from "react-icons/si";
+import { DiSass, DiScrum, DiJava, DiHtml5,DiCss3, DiReact, DiAngularSimple, DiAndroid, DiJavascript1 } from 'react-icons/di'
+
 
 export const banner = {
     titlePart1: 'Guilherme Jackson Lamim',
@@ -10,8 +14,8 @@ export const banner = {
   };
 
   export const about = {
-    icon: UsersIcn,
-    title: 'Mais sobre',
+    icon: AboutInc,
+    title: 'Sobre mim',
     subtitle1:
     'Graduado em Sistemas de Informação pela Uniasselvi, onde tive meu'+
     ' primeiro contato com tecnologia. Em 2019, iniciei o curso de formação de desenvolvimento'+
@@ -27,4 +31,71 @@ export const banner = {
     '560 horas de curso concluídos em 2020.',
     linkedin: 'Linkedin',
     instagram: 'instagram'
+  };
+
+  export const tecnologies = {
+    title: 'Tecnologias',
+    icon: Technology
+  }
+  export const tecnologiesSlider = {
+    
+    title: 'Training programs',
+    programs: [
+      {
+        image: <DiReact size='13.5rem' color='#61dafb'/>,
+        name: 'React',
+      },
+      {
+        image: <DiAngularSimple size='13.5rem' color='#aa2a2c' />,
+        name: 'Angular',
+      },
+      {
+        image: <DiHtml5 size='13.5rem' color='#E44D26'/>,
+        name: 'HTML 5',
+      },
+      {
+        image: <DiCss3 size='13.5rem' color='#1572b6'/>,
+        name: 'CSS',
+      },
+      {
+        image: <SiTailwindcss size='13.5rem' color='#38bdf8'/>,
+        name: 'Tailwind ',
+      },
+      {
+        image: <DiAndroid size='13.5rem' color='#73bb56'/>,
+        name: 'Android',
+      },
+      {
+        image: <DiJavascript1 size='13.5rem' color='#efd81d'/>,
+        name: 'Javascript',
+      },
+      {
+        image: <SiTypescript size='13.5rem' color='#2f74c0' />,
+        name: 'Typescript',
+      },
+      {
+        image: <DiJava size='13.5rem' color='#5283a2' />,
+        name: 'Java',
+      },
+      {
+        image: <SiCypress size='13.5rem' color='#23252d' />,
+        name: 'Cypress',
+      },
+      {
+        image: <SiApacheecharts size='13.5rem' color='#e43961' />,
+        name: 'eCharts',
+      },
+      {
+        image: <DiScrum size='13.5rem' color='#3a7b97' />,
+        name: 'Scrum',
+      },
+      {
+        image: <SiLess size='13.5rem' color='#254675' />,
+        name: 'Less',
+      },
+      {
+        image: <DiSass size='13.5rem' color='#c66394' />,
+        name: 'SASS',
+      }
+    ],
   };
