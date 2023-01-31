@@ -9,16 +9,16 @@ const Join = () => {
           <div
             className="-mt-[80px] max-w-[276px] md:max-w-[442px] lg:max-w-[450px]"
             data-aos="fade-right"
-            data-aos-offset="100"
-            data-aos-delay="200"
+            data-aos-offset="200"
+            data-aos-delay="100"
           >
             <img src={image} alt="" />
           </div>
           <div
             className="max-w-[350px] lg:max-w-[492px] ml-[30px]"
             data-aos="fade-left"
-            data-aos-offset="100"
-            data-aos-delay="200"
+            data-aos-offset="200"
+            data-aos-delay="100"
           >
             <h2 className="h1 md:text-[60px] md:leading-[62px] mb-4 lg:mb-6  text-white">
               {title} <span className="text-primary-200">&</span>

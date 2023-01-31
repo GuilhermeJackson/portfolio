@@ -46,11 +46,6 @@ export const about = {
     "por 2 anos como front-end na maior e mais complexa cervejaria do mundo, a Ambev, que me " +
     "permitiu por em prática todo conhecimento adquirido na faculdade e foi muito importante " +
     " para meu desenvolvimento das minhas habilidades técnicas e comunicação.",
-  subtitle3:
-    "Iniciei minha formação em Sistemas de Informação em 2017, pela Uniasselvi, onde tive meu" +
-    " primeiro contato com tecnologia. Em 2019, iniciei o curso de formação de desenvolvimento" +
-    " Android e iOS, pela Proway, como parte do programa da maior cervejaria do mundo a AmbevTech, totalizando " +
-    "560 horas de curso concluídos em 2020.",
   linkedin: "Linkedin",
   instagram: "Instagram",
 };

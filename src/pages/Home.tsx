@@ -8,7 +8,7 @@ import Contact from "../component/Contact";
 
 function App() {
   Aos.init({
-    duration: 2500,
+    duration: 1500,
     delay: 400,
   });
   return (

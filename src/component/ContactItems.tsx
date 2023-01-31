@@ -8,12 +8,12 @@ const ContactItems = () => {
         return (
           <div className="grid justify-items-center mx-8 my-10 ">
             <a href={contact.url} target="_blank">
-            <div
-              className="flex w-20 h-20 items-center justify-center bg-neutral-500 rounded-full"
-              key={contact.title}
-            >
-              {contact.icon}
-            </div>
+              <div
+                className="flex w-20 h-20 items-center justify-center bg-neutral-500 rounded-full"
+                key={contact.title}
+              >
+                {contact.icon}
+              </div>
             </a>
             <p className="md:text-body-md flex-wrap">{contact.title}</p>
             <p className="md:text-body-md flex-wrap">{contact.myContact}</p>

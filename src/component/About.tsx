@@ -10,6 +10,7 @@ const About = () => {
           className="section-title-group justify-start"
           data-aos="fade-up"
           data-aos-delay="100"
+          data-aos-offset="200"
         >
           <img src={icon} alt="" />
           <h2 className="h2 section-title">
@@ -20,19 +21,22 @@ const About = () => {
         <p
           className="md:text-body-md mb-12"
           data-aos="fade-up"
-          data-aos-delay="300"
+          data-aos-delay="100"
+          data-aos-offset="200"
         >
           {subtitle1}
         </p>
         <p
           className="md:text-body-md mb-8"
           data-aos="fade-up"
-          data-aos-delay="500"
+          data-aos-delay="100"
+          data-aos-offset="200"
         >
           {subtitle2}
         </p>
         <div className="flex" data-aos="fade-up"
-          data-aos-delay="700">
+          data-aos-delay="100"
+          data-aos-offset="200">
           <a
             className="link flex items-center gap-x-4 hover:gap-x-6 translate-all"
             href='https://www.linkedin.com/in/guilhermelamim/' target="_blank"

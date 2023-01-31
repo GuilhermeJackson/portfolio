@@ -17,7 +17,7 @@ const Banner = () => {
             <button
               className="btn btn-secondary"
               data-aos="fade-up"
-              data-aos-delay="1000"
+              data-aos-delay="100"
             >
               <a href="https://github.com/GuilhermeJackson" target="_blank">{textBtn}</a>
             </button>
@@ -25,7 +25,7 @@ const Banner = () => {
           <div
             className="bg-blue-300 w-full h-full bg-banner bg-cover bg-center  lg:bg-center bg-no-repeat flex-1"
             data-aos="fade-left"
-            data-aos-delay="500"
+            data-aos-delay="100"
           >
           </div>
         </div>
