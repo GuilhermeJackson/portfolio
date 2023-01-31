@@ -65,7 +65,7 @@ export const tecnologies = {
 export const contact = {
   title: "Contato",
 };
-const color = "#e7c336";
+const color = "#131316";
 export const contactItems = {
   contactsItems: [
     {

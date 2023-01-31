@@ -6,17 +6,16 @@ const ContactItems = () => {
     <div className="flex w-full justify-around flex-wrap">
       {contactsItems.map((contact) => {
         return (
-          <div className="grid justify-items-center mx-8 my-10 ">
+          <div className="grid justify-items-center mx-8">
             <a href={contact.url} target="_blank">
               <div
-                className="flex w-20 h-20 items-center justify-center bg-neutral-500 rounded-full"
+                className="flex w-[55px] h-[55px] items-center justify-center bg-primary-200 rounded-full"
                 key={contact.title}
               >
                 {contact.icon}
               </div>
             </a>
-            <p className="md:text-body-md flex-wrap">{contact.title}</p>
-            <p className="md:text-body-md flex-wrap">{contact.myContact}</p>
+            <p className="md:text-body-md flex-wrap text-white">{contact.myContact}</p>
           </div>
         );
       })}
