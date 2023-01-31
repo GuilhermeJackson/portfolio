@@ -15,9 +15,10 @@ function App() {
     <div className="max-w-[1440px] mx-auto bg-page overflow-hidden relative ">
       <Banner />
       <About />
+      <Cat />
       <Technology />
       <Contact />
-      <Cat />
+      
     </div>
   );
 }
