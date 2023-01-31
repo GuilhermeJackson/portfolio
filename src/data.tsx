@@ -48,9 +48,7 @@ export const banner = {
     icon: Technology
   }
   export const tecnologiesSlider = {
-    
-    title: 'Training programs',
-    programs: [
+    tecnologies: [
       {
         image: <DiReact size='9.5rem' color='#61dafb'/>,
         name: 'React',

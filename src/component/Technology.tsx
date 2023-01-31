@@ -4,14 +4,14 @@ import TechnologySlider from "./TechnologySlider";
 const Technology = () => {
     const { title, icon } = tecnologies;
   return (
-    <section className="pb-20 sm:px-20">
+    <section className="bg-neutral-500 pb-20 sm:px-20">
       <div
         className="section-title-group -space-x-11 -space-y-10 max-w[540px] mx-auto px-4 lg:px-0"
         data-aos="fade-up"
         data-aos-delay="100"
       >
         <img src={icon} alt="" />
-        <h2 className="h2 section-title">
+        <h2 className="h2 section-title text-white">
           {title} <span className="text-primary-200">.</span>
         </h2>
       </div>

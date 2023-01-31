@@ -6,7 +6,7 @@ import { Navigation } from "swiper";
 import { tecnologiesSlider } from "../data";
 
 const TechnologySlider = () => {
-  const { programs } = tecnologiesSlider;
+  const { tecnologies } = tecnologiesSlider;
   return (
     <Swiper
       
@@ -24,8 +24,8 @@ const TechnologySlider = () => {
       modules={[Navigation]}
       className="pl-10 pr-10"
     >
-      {programs.map((program, index) => {
-        const { image, name } = program;
+      {tecnologies.map((tecnology, index) => {
+        const { image, name } = tecnology;
         return (
           <SwiperSlide
             className="max-w-[320px] max-h-[320px] relative "
