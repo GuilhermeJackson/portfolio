@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import About from "../component/About";
 import Technology from "../component/Technology";
+import Cat from "../component/Cat";
 
 function App() {
   Aos.init({
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <About />
       <Technology />
+      <Cat />
     </div>
   );
 }

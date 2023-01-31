@@ -1,5 +1,6 @@
 import AboutInc from '../src/assets/svg/about/about-successful-man.svg';
 import Technology from '../src/assets/svg/tecnology/tecnology.svg';
+import Cat from '../src/assets/img/cat/cat.jpg';
 import { SiLess, SiTailwindcss, SiCypress, SiTypescript, SiApacheecharts } from "react-icons/si";
 import { DiSass, DiScrum, DiJava, DiHtml5,DiCss3, DiReact, DiAngularSimple, DiAndroid, DiJavascript1 } from 'react-icons/di'
 
@@ -33,8 +34,14 @@ export const banner = {
     ' Android e iOS, pela Proway, como parte do programa da maior cervejaria do mundo a AmbevTech, totalizando '+
     '560 horas de curso concluídos em 2020.',
     linkedin: 'Linkedin',
-    instagram: 'instagram'
+    instagram: 'Instagram'
   };
+
+  export const cat = {
+    title: 'Olá, meu nome é Edgar',
+    subtitle: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.',
+    image: Cat
+  }
 
   export const tecnologies = {
     title: 'Tecnologias',
