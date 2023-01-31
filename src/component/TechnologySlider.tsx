@@ -11,7 +11,7 @@ const TechnologySlider = () => {
     <Swiper
       
       slidesPerView={2}
-      spaceBetween={0}
+      spaceBetween={-30}
       navigation={true}
       breakpoints={{
         768: {
@@ -22,13 +22,13 @@ const TechnologySlider = () => {
         },
       }}
       modules={[Navigation]}
-      className="ml-10 mr-10"
+      className="pl-10 pr-10"
     >
       {programs.map((program, index) => {
         const { image, name } = program;
         return (
           <SwiperSlide
-            className="max-w-[320px] max-h-[320px] relative"
+            className="max-w-[320px] max-h-[320px] relative "
             key={index}
           >
             <div className="w-full h-full object-cover">
