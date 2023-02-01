@@ -51,9 +51,10 @@ export const about = {
 };
 
 export const cat = {
-  title: "Olá, meu nome é Edgar",
+  title: "Olá! meu nome é Edgar",
   subtitle:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "Eu fui deixado na rua pelos meu antigos donos quando ainda era pequeno, o Guilherme me deu um lar e desde então o acompanho enquanto ele coda e joga League of Legends."+
+    "",
   image: Cat,
 };
 
@@ -72,25 +73,29 @@ export const contactItems = {
       icon: <TfiEmail size={40} color={color} />,
       title: "E-mail",
       myContact: "guilherme.lamim96@gmail.com",
-      url: "mailto:guilherme.lamim96@gmail.com"
+      url: "mailto:guilherme.lamim96@gmail.com",
+      id:1
     },
     {
       icon: <BsTelephone size={40} color={color} />,
       title: "Telefone",
       myContact: "(47) 99105-6721",
-      url: "https://web.whatsapp.com/send?phone=5547991056721"
+      url: "https://web.whatsapp.com/send?phone=5547991056721",
+      id:2
     },
     {
       icon: <TfiLinkedin size={40} color={color} />,
       title: "Linkedin",
       myContact: "@guilhermelamim",
-      url: "https://www.linkedin.com/in/guilhermelamim/"
+      url: "https://www.linkedin.com/in/guilhermelamim/",
+      id:3
     },
     {
       icon: <TfiGithub size={40} color={color} />,
       title: "Github",
       myContact: "@guilhermejackson",
-      url: "https://github.com/GuilhermeJackson"
+      url: "https://github.com/GuilhermeJackson",
+      id: 4
     },
   ],
 };

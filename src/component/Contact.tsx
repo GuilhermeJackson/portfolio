@@ -20,7 +20,6 @@ const Contact = () => {
           className="flex w-full flex-wrap"
           data-aos="fade-up"
           data-aos-delay="100"
-          data-aos-offset="200"
         >
           <ContactItems />
         </div>

@@ -20,7 +20,7 @@ const Join = () => {
             data-aos-offset="200"
             data-aos-delay="100"
           >
-            <h2 className="h1 md:mt-[200px] md:text-[60px] md:leading-[62px] mb-4 lg:mb-6 mt-[0px] text-white">
+            <h2 className="h1 md:text-[60px] md:leading-[62px] mb-4 lg:mb-6 mt-[0px] text-white">
               {title} <span className="text-primary-200">&</span>
             </h2>
             <p className="text-body-sm md:text-body-md text-white mb-4 lg:mb-6 max-h-[437px] max-w-[348px] md:max-w-[470px] lg:max-w-[492px]">

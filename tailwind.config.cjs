@@ -19,9 +19,7 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          100: '#F5DC77',
-          200: '#e7c336',
-          300: '#ffd325',
+          200: '#9906de',
         },
         neutral: {
           100: '#ffffff',
@@ -33,7 +31,7 @@ module.exports = {
         page: '#fcfcff',
       },
       backgroundImage: {
-        banner: "url('/src/assets/img/banner/guilherme.jpeg')",
+        banner: "url('/src/assets/img/banner/guilherme3.jpeg')",
       },
     },
   },
