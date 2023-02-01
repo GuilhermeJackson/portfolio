@@ -53,8 +53,7 @@ export const about = {
 export const cat = {
   title: "Olá! meu nome é Edgar",
   subtitle:
-    "Eu fui deixado na rua pelos meu antigos donos quando ainda era pequeno, o Guilherme me deu um lar e desde então o acompanho enquanto ele coda e joga League of Legends."+
-    "",
+    "Eu fui deixado na rua pelos meus antigos donos quando ainda era pequeno, o Guilherme me deu um lar e desde então o acompanho enquanto ele coda e joga League of Legends.",
   image: Cat,
 };
 
