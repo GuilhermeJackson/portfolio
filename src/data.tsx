@@ -35,16 +35,16 @@ export const about = {
   icon: AboutInc,
   title: "Sobre mim",
   subtitle1:
-    "Desenvolvedor front-end com experiencia em React, Angular, Javascript, Typescript," +
-    " Cypress, NZ-zorro e consumo de APIs REST. Sou apaixonado por soluções acessiveis e " +
+    "Desenvolvedor front-end com experiência em React, Angular, Javascript, Typescript," +
+    " Cypress, NZ-zorro e consumo de APIs REST. Sou apaixonado por soluções acessíveis e " +
     "modernas. Também tenho experiência em projetos gerenciados por Metodologias Ágeis.",
   subtitle2:
     "Formado em Sistemas de Informação em 2022, pela Uniasselvi, onde tive meu" +
-    " primeiro contato com tecnologia. Em 2019, iniciei o curso de formação de desenvolvimento" +
-    " Android e iOS, pela Proway, como parte do programa da AmbevTech. Também tive o prazer de trabalhar " +
+    " primeiro contato com tecnologia. Em 2019 iniciei o curso de formação de desenvolvimento" +
+    " Android e iOS pela Proway, como parte do programa Padawan da AmbevTech. Também tive o prazer de trabalhar " +
     "por 2 anos como front-end na maior e mais complexa cervejaria do mundo, a Ambev, que me " +
     "permitiu pôr em prática todo conhecimento adquirido na faculdade e foi muito importante " +
-    " para meu desenvolvimento das minhas habilidades técnicas e comunicação.",
+    " para o desenvolvimento das minhas habilidades técnicas e comunicação.",
   linkedin: "Linkedin",
   instagram: "Instagram",
 };
@@ -52,7 +52,7 @@ export const about = {
 export const cat = {
   title: "Olá! meu nome é Edgar",
   subtitle:
-    "Eu fui deixado na rua pelos meus antigos donos quando ainda era pequeno, o Guilherme me deu um lar e desde então o acompanho enquanto ele coda e joga League of Legends.",
+    "Fui abandonado pelos meus antigos donos quando ainda era pequeno, o Guilherme me deu um lar e desde então o acompanho enquanto ele coda e joga League of Legends.",
   image: Cat,
 };
 
