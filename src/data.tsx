@@ -3,7 +3,6 @@ import Technology from "../src/assets/svg/tecnology/tecnology.svg";
 import Cat from "../src/assets/img/cat/cat.jpg";
 import { TfiLinkedin, TfiGithub, TfiEmail } from "react-icons/Tfi";
 import { BsTelephone } from "react-icons/Bs";
-import {} from "react-icons/Tfi";
 import {
   SiLess,
   SiTailwindcss,
