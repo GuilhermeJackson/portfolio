@@ -1,8 +1,8 @@
 import AboutInc from "../src/assets/svg/about/about-successful-man.svg";
 import Technology from "../src/assets/svg/tecnology/tecnology.svg";
 import Cat from "../src/assets/img/cat/cat.jpg";
-import { TfiLinkedin, TfiGithub, TfiEmail } from "react-icons/Tfi";
-import { BsTelephone } from "react-icons/Bs";
+import { TfiLinkedin, TfiGithub, TfiEmail } from "react-icons/tfi";
+import { BsTelephone } from "react-icons/bs";
 import {
   SiLess,
   SiTailwindcss,
