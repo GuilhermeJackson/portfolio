@@ -78,7 +78,7 @@ export const contactItems = {
       icon: <BsTelephone size={40} color={color} />,
       title: "Telefone",
       myContact: "(47) 99105-6721",
-      url: "https://web.whatsapp.com/send?phone=5547991056721",
+      url: "https://wa.me/5547991056721",
       id:2
     },
     {
