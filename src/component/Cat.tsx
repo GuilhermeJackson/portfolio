@@ -12,7 +12,7 @@ const Join = () => {
             data-aos-offset="200"
             data-aos-delay="100"
           >
-            <img src={image} alt="" />
+            <img src={image} alt="" className="transform hover:scale-105 hover:rotate-5"/>
           </div>
           <div
             className="max-w-[350px] mt-10  lg:max-w-[492px] ml-[30px]"
