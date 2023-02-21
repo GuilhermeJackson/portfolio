@@ -1,5 +1,4 @@
 import { about } from "../data";
-import { IoIosArrowDroprightCircle } from "react-icons/io";
 
 const About = () => {
   const { title, subtitle1, subtitle2, icon, linkedin, instagram } = about;
