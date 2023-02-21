@@ -1,5 +1,6 @@
 import AboutInc from "../src/assets/svg/about/about-successful-man.svg";
 import Technology from "../src/assets/svg/tecnology/tecnology.svg";
+import Logo from "../src/assets/svg/about/about-successful-man.svg"
 import Cat from "../src/assets/img/cat/cat.jpg";
 import { TfiLinkedin, TfiGithub, TfiEmail } from "react-icons/tfi";
 import { BsTelephone } from "react-icons/bs";
@@ -21,6 +22,15 @@ import {
   DiAndroid,
   DiJavascript1,
 } from "react-icons/di";
+
+export const nav = [
+  { name: 'Home', href: '/' },
+  { name: 'Sobre mim', href: '/' },
+  { name: 'Mascote', href: '/' },
+  { name: 'Tecnologias', href: '/' },
+  // { name: 'Portfólio'},
+  { name: 'Contato', href: '/' }
+];
 
 export const banner = {
   titlePart1: "Olá! meu nome é Guilherme Lamim",
