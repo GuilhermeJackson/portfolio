@@ -1,4 +1,5 @@
 import { contact } from "../data";
+import React from 'react';
 import ContactItems from "./ContactItems";
 
 const Contact = () => {

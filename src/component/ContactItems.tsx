@@ -6,7 +6,7 @@ const ContactItems = () => {
     <div className="flex w-full justify-around flex-wrap">
       {contactsItems.map((contact) => {
         return (
-          <div className="grid justify-items-center mx-8" key={contact.id}>
+          <div className="grid justify-items-center mx-8 transform hover:scale-110 hover:rotate-5" key={contact.id}>
             <a href={contact.url} target="_blank">
               <div className="flex w-[55px] h-[55px] items-center justify-center bg-primary-200 rounded-full">
                 {contact.icon}
