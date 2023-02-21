@@ -24,7 +24,8 @@ import {
 
 export const banner = {
   titlePart1: "Olá! meu nome é Guilherme Lamim",
-  titlePart2: "& Desenvolvedor Front-End",
+  titlePart2: '& Desenvolvedor front-end',
+  titlePart3: '',
   subtitle:
     "Meu propósito é criar soluções modernas e acessíveis para facilitar a vida dos usuários.",
   textBtn: "Github",
