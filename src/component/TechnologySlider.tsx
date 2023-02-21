@@ -9,7 +9,6 @@ const TechnologySlider = () => {
   const { tecnologies } = tecnologiesSlider;
   return (
     <Swiper
-      
       slidesPerView={2}
       spaceBetween={-30}
       navigation={true}
@@ -31,7 +30,7 @@ const TechnologySlider = () => {
             className="max-w-[320px] max-h-[320px] relative "
             key={index}
           >
-            <div className="w-full h-full object-cover">
+            <div className="w-full h-full object-cover p-4 transform hover:scale-125 hover:rotate-5">
               {image}
               <div className="absolute left-[20px] bottom-[20px] bg-neutral-200 h-[26px] px-[14px] flex items-center rounded-[1px]">
                 <div className="font-primary font-semibold text-sm text-neutral-500">
