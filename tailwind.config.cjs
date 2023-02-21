@@ -21,6 +21,9 @@ module.exports = {
         primary: {
           200: '#9906de',
         },
+        hover: {
+          200: '#9930CC'
+        },
         neutral: {
           100: '#ffffff',
           200: '#dedee3',

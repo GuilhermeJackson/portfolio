@@ -64,6 +64,11 @@ export const tecnologies = {
 export const contact = {
   title: "Contato",
 };
+
+interface ColorIcon {
+  color: string
+}
+
 const color = "#131316";
 export const contactItems = {
   contactsItems: [
