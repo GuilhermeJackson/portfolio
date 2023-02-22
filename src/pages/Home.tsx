@@ -6,6 +6,7 @@ import Technology from "../component/Technology";
 import Cat from "../component/Cat";
 import Contact from "../component/Contact";
 import Header from "../component/Header";
+import Projects from "../component/Projects";
 
 function App() {
   Aos.init({
@@ -19,6 +20,7 @@ function App() {
       <About />
       <Cat />
       <Technology />
+      <Projects />
       <Contact />
     </div>
   );

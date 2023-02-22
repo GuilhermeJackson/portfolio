@@ -1,6 +1,8 @@
 import AboutInc from "../src/assets/svg/about/about-successful-man.svg";
 import Technology from "../src/assets/svg/tecnology/tecnology.svg";
-import Logo from "../src/assets/svg/about/about-successful-man.svg"
+import Plataforma from "../src/assets/img/projects/plataforma.png";
+import Fundamentos from "../src/assets/img/projects/fudamentosreact.png";
+import Portfolio from "../src/assets/img/projects/portfolio.png"
 import Cat from "../src/assets/img/cat/cat.jpg";
 import { TfiLinkedin, TfiGithub, TfiEmail } from "react-icons/tfi";
 import { BsTelephone } from "react-icons/bs";
@@ -59,6 +61,42 @@ export const about = {
   linkedin: "Linkedin",
   instagram: "Instagram",
 };
+
+interface PortfolioList {
+  title: string;
+  image: string;
+  description: string;
+  urlCode: string;
+  urlDeploy: string
+}
+
+export const project = {
+  title: "Portfólio",
+  portfolioList: 
+  [
+    {
+      title: 'Plataforma streaming',
+      image: Plataforma,
+      description: 'Descrição do projeto',
+      urlCode: 'https://github.com/GuilhermeJackson/plataforma-streaming',
+      urlDeploy: 'https://plataforma-streaming-gamma.vercel.app/event'
+    },
+    // {
+    //   title: 'Lista de chamada',
+    //   image: Fundamentos,
+    //   description: 'Descrição do projeto',
+    //   urlCode: 'https://github.com/GuilhermeJackson/portfolio',
+    //   urlDeploy: 'https://fundamentos-react-jet.vercel.app/'
+    // },
+    // {
+    //   title: 'Portfólio',
+    //   image: Portfolio,
+    //   description: 'Descrição do projeto',
+    //   urlCode: 'https://github.com/GuilhermeJackson/fundamentos-react',
+    //   urlDeploy: 'https://guilhermejackson.github.io/guilherme-lamim/'
+    // },
+  ]
+}
 
 export const cat = {
   title: "Olá! meu nome é Edgar",
